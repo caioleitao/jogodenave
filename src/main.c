@@ -7,7 +7,7 @@ int main(){
 
 	InitWindow(screenWidth, screenHeight, "Jogo de navinha");
 
-	Texture2D background = LoadTexture("background.jpg");
+	Texture2D background = LoadTexture("background.png");
 
 	while(!WindowShouldClose()){
 		BeginDrawing();
